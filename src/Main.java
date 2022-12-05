@@ -156,7 +156,7 @@ public class Main {
 
     public static void fileReader() throws IOException {
         ArrayList<String> result = new ArrayList<>();
-        File myfile = new File("D:\\ПИСМ\\Laba_8\\src\\List");
+        File myfile = new File("D:\\ПИСМ\\laba8\\src\\List");
         FileReader fr = new FileReader(myfile);
         BufferedReader reader = new BufferedReader(fr);
         String line;
